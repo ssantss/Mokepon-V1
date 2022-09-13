@@ -123,7 +123,7 @@ function iniciarJuego() {
         inputRatigueya = document.getElementById("Ratigueya")
         inputLangostelvis = document.getElementById("Langostelvis")
         inputTucapalma = document.getElementById("Tucapalma")
-        inputHPydos = document.getElementById("Pydos")
+        inputPydos = document.getElementById("Pydos")
 
     })
 

@@ -348,12 +348,16 @@ p.mostrar-mascota{
   margin-top: -20px
 }
 
-@media (max-width: 380px){
+@media (max-width: 400px){
   .elegir-mascota{
     flex-direction: column;
   }
   .botones-ataque{
     display: flex;
     flex-direction: column;
+  }
+
+  .cuadro{
+    width:280px;
   }
 }
