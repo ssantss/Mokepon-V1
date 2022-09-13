@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" charset="utf-8 /">
+    <title>MOKEPON</title>
+    <link rel="stylesheet" href="./css/stylemokepon.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <section id="seleccionar-mascota">
+        <div class="seccion">
+            <img src="./imagenes/International_Pokémon_logo.svg.png" class="logo">
+            <h1 class="titulo">💧🔥🌱</h1>
+            <div class="cuadro">
+
+                <h2>Elige a tu mascota:</h2>
+                
+                <div id="contenedorTarjetas" class="elegir-mascota">
+                
+                
+
+                </div>
+                <div class="boton-seleccionar">
+                    <button id="boton-mascota" class="seleccionar">Seleccionar</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="seleccionar-ataque">
+        <img src="./imagenes/International_Pokémon_logo.svg.png" class="logo">
+        <h1 class="titulo">💧🔥🌱</h1>
+
+        <div class="cuadro2">
+            <h2>Elige tu ataque:</h2>
+            <img src="./imagenes/188918.png" alt="Ataque">
+            <div class="botones-ataque">
+                
+                    <button id="boton-fuego" class="boton-ataque">Fuego
+                        <img src="./imagenes/1200px-Pokémon_Fire_Type_Icon.svg.png" class="Fuego">
+                    </button>
+                    <button id="boton-agua" class="boton-ataque">Agua
+                        <img src="./imagenes/1024px-Pokémon_Water_Type_Icon.svg.png" class="Agua">
+                    </button>
+                    <button id="boton-tierra" class="boton-ataque">Tierra
+                        <img src="./imagenes/1200px-Pokémon_Ground_Type_Icon.svg.png" class="Tierra">
+                    </button>
+                
+            </div>
+        </div>
+        <div>
+
+            <div class="mascotas-elegidas">
+                <p class="vidas">Vidas<span id="vidas-jugador">3</span></p>
+                <div class="cuadro-mascota">
+                <p class="mostrar-mascota">Tu mascota </p>
+                    <span id="mascota-jugador"></span>
+                    <span id="imagen-jugador"></span>
+                </div>
+                <div id="img-ataque-jugador"></div>
+                <div id="versus">VS</div>
+                <div id="resultado"></div>
+                <div id="img-ataque-enemigo"></div>
+                <div class="cuadro-mascota">
+                    <p class="mostrar-mascota">Mascota del enemigo </p>
+                    <span id="mascota-enemigo"></span>
+                    <span id="imagen-enemigo"></span>
+                </div>
+                <p class="vidas">Vidas<span id="vidas-enemigo">3</span></p>
+            </div>
+            <div id="mensajeFinal"></div>
+
+            <section id="reiniciar">
+                <button id="boton-revancha">REVANCHA</button>
+            </section>
+        </div>
+    </section>
+    <script src="./js/mokepon.js"></script>
+</body>
+</html>
