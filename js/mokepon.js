@@ -184,7 +184,7 @@ function seleccionarMascotaEnemigo(){
 
     if(ataqueAleatorio == 1) {
         selectedenemy = "Hipodoge"
-        spanImagenEnemigo.innerHTML = '<img id="img-hipodogue" src="./imagenes/pokemon-17.svg" alt="Hipodoge">'
+        spanImagenEnemigo.innerHTML = '<img id="img-hipodoge" src="./imagenes/pokemon-17.svg" alt="Hipodoge">'
 
     } else if(ataqueAleatorio == 2){
         selectedenemy = "Capipepo"
