@@ -364,4 +364,32 @@ p.mostrar-mascota{
   .tarjeta-de-mokepon{
     width: 270px;
   }
+
+  .mascotas-elegidas{
+    display:flex;
+    flex-direction: column;
+  }
+
+  .cuadro2{
+    width:290px;
+  }
+
+  .botones-ataque{
+    display:flex;
+    flex-direction: row;
+    
+  }
+
+  .boton-ataque img {
+    height: 60px;
+  }
+  
+  .boton-ataque{
+    width:100px;
+    height:110px;
+    margin-right: 2px;
+    margin-left: 2px;
+    font-size:20px;
+    
+  }
 }
