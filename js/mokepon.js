@@ -48,26 +48,26 @@ class Mokepon {
   }
 }
 
-let Hipodoge = new Mokepon("Hipodoge", "./imagenes/pokemon-17.svg", 5);
+let Hipodoge = new Mokepon("Hipodoge", "./resources/pokemon-17.svg", 5);
 let Capipepo = new Mokepon(
   "Capipepo",
-  "./imagenes/pidgeot-seeklogo.com.svg",
+  "./resources/pidgeot-seeklogo.com.svg",
   5
 );
-let Ratigueya = new Mokepon("Ratigueya", "./imagenes/pokemon-5.svg", 5);
+let Ratigueya = new Mokepon("Ratigueya", "./resources/pokemon-5.svg", 5);
 let Langostelvis = new Mokepon(
   "Langostelvis",
-  "./imagenes/charizard-logo-C9856A6142-seeklogo.com.png",
+  "./resources/charizard-logo-C9856A6142-seeklogo.com.png",
   5
 );
 let Tucapalma = new Mokepon(
   "Tucapalma",
-  "./imagenes/butterfree-seeklogo.com.svg",
+  "./resources/butterfree-seeklogo.com.svg",
   5
 );
 let Pydos = new Mokepon(
   "Pydos",
-  "./imagenes/dragonair-logo-D994877077-seeklogo.com.png",
+  "./resources/dragonair-logo-D994877077-seeklogo.com.png",
   5
 );
 
@@ -155,27 +155,27 @@ function seleccionarMascotaJugador() {
   if (inputHipodoge.checked) {
     selected = "Hipodoge";
     spanImagenJugador.innerHTML =
-      '<img id="img-hipodoge" src="./imagenes/pokemon-17.svg" alt="Hipodoge">';
+      '<img id="img-hipodoge" src="./resources/pokemon-17.svg" alt="Hipodoge">';
   } else if (inputCapipepo.checked) {
     selected = "Capipepo";
     spanImagenJugador.innerHTML =
-      '<img id="img-capipepo" src="./imagenes/pidgeot-seeklogo.com.svg" alt="Hipodoge">';
+      '<img id="img-capipepo" src="./resources/pidgeot-seeklogo.com.svg" alt="Hipodoge">';
   } else if (inputRatigueya.checked) {
     selected = "Ratigueya";
     spanImagenJugador.innerHTML =
-      '<img id="img-ratigueya" src="./imagenes/pokemon-5.svg" alt="Hipodoge">';
+      '<img id="img-ratigueya" src="./resources/pokemon-5.svg" alt="Hipodoge">';
   } else if (inputLangostelvis.checked) {
     selected = "Langostelvis";
     spanImagenJugador.innerHTML =
-      '<img id="img-langostelvis" src="./imagenes/charizard-logo-C9856A6142-seeklogo.com.png" alt="Hipodoge">';
+      '<img id="img-langostelvis" src="./resources/charizard-logo-C9856A6142-seeklogo.com.png" alt="Hipodoge">';
   } else if (inputTucapalma.checked) {
     selected = "Tucapalma";
     spanImagenJugador.innerHTML =
-      '<img id="img-tucapalma" src="./imagenes/butterfree-seeklogo.com.svg" alt="Hipodoge">';
+      '<img id="img-tucapalma" src="./resources/butterfree-seeklogo.com.svg" alt="Hipodoge">';
   } else if (inputPydos.checked) {
     selected = "Pydos";
     spanImagenJugador.innerHTML =
-      '<img id="img-pydos" src="./imagenes/dragonair-logo-D994877077-seeklogo.com.png" alt="Hipodoge">';
+      '<img id="img-pydos" src="./resources/dragonair-logo-D994877077-seeklogo.com.png" alt="Hipodoge">';
   } else {
     alert("Debes seleccionar un MOKEPON");
     location.reload();
@@ -199,27 +199,27 @@ function seleccionarMascotaEnemigo() {
   if (ataqueAleatorio == 1) {
     selectedenemy = "Hipodoge";
     spanImagenEnemigo.innerHTML =
-      '<img id="img-hipodoge" src="./imagenes/pokemon-17.svg" alt="Hipodoge">';
+      '<img id="img-hipodoge" src="./resources/pokemon-17.svg" alt="Hipodoge">';
   } else if (ataqueAleatorio == 2) {
     selectedenemy = "Capipepo";
     spanImagenEnemigo.innerHTML =
-      '<img id="img-capipepo" src="./imagenes/pidgeot-seeklogo.com.svg" alt="Hipodoge">';
+      '<img id="img-capipepo" src="./resources/pidgeot-seeklogo.com.svg" alt="Hipodoge">';
   } else if (ataqueAleatorio == 3) {
     selectedenemy = "Ratigueya";
     spanImagenEnemigo.innerHTML =
-      '<img id="img-ratigueya" src="./imagenes/pokemon-5.svg" alt="Hipodoge">';
+      '<img id="img-ratigueya" src="./resources/pokemon-5.svg" alt="Hipodoge">';
   } else if (ataqueAleatorio == 4) {
     selectedenemy = "Langostelvis";
     spanImagenEnemigo.innerHTML =
-      '<img id="img-langostelvis" src="./imagenes/charizard-logo-C9856A6142-seeklogo.com.png" alt="Hipodoge">';
+      '<img id="img-langostelvis" src="./resources/charizard-logo-C9856A6142-seeklogo.com.png" alt="Hipodoge">';
   } else if (ataqueAleatorio == 5) {
     selectedenemy = "Tucapalma";
     spanImagenEnemigo.innerHTML =
-      '<img id="img-tucapalma" src="./imagenes/butterfree-seeklogo.com.svg" alt="Hipodoge">';
+      '<img id="img-tucapalma" src="./resources/butterfree-seeklogo.com.svg" alt="Hipodoge">';
   } else {
     selectedenemy = "Pydos";
     spanImagenEnemigo.innerHTML =
-      '<img id="img-pydos" src="./imagenes/dragonair-logo-D994877077-seeklogo.com.png" alt="Hipodoge">';
+      '<img id="img-pydos" src="./resources/dragonair-logo-D994877077-seeklogo.com.png" alt="Hipodoge">';
   }
 
   if (selectedenemy) {
@@ -230,21 +230,21 @@ function seleccionarMascotaEnemigo() {
 function ataqueFuego() {
   ataqueJugador = "FUEGO";
   spanImagenAtaqueJugador =
-    '<img id="imagen-fuego" src="./imagenes/1200px-Pokémon_Fire_Type_Icon.svg.png" class="Fuego">';
+    '<img id="imagen-fuego" src="./resources/1200px-Pokémon_Fire_Type_Icon.svg.png" class="Fuego">';
   ataqueAleatorioEnemigo();
 }
 
 function ataqueAgua() {
   ataqueJugador = "AGUA";
   spanImagenAtaqueJugador =
-    '<img id="imagen-agua" src="./imagenes/1024px-Pokémon_Water_Type_Icon.svg.png" class="Agua">';
+    '<img id="imagen-agua" src="./resources/1024px-Pokémon_Water_Type_Icon.svg.png" class="Agua">';
   ataqueAleatorioEnemigo();
 }
 
 function ataqueTierra() {
   ataqueJugador = "TIERRA";
   spanImagenAtaqueJugador =
-    '<img id="imagen-tierra" src="./imagenes/1200px-Pokémon_Ground_Type_Icon.svg.png" class="Tierra"></img>';
+    '<img id="imagen-tierra" src="./resources/1200px-Pokémon_Ground_Type_Icon.svg.png" class="Tierra"></img>';
 
   ataqueAleatorioEnemigo();
 }
@@ -255,15 +255,15 @@ function ataqueAleatorioEnemigo() {
   if (ataqueAleatorio == 1) {
     ataqueEnemigo = "FUEGO";
     spanImagenAtaqueEnemigo =
-      '<img id="imagen-fuego" src="./imagenes/1200px-Pokémon_Fire_Type_Icon.svg.png" class="Fuego">';
+      '<img id="imagen-fuego" src="./resources/1200px-Pokémon_Fire_Type_Icon.svg.png" class="Fuego">';
   } else if (ataqueAleatorio == 2) {
     ataqueEnemigo = "AGUA";
     spanImagenAtaqueEnemigo =
-      '<img id="imagen-agua" src="./imagenes/1024px-Pokémon_Water_Type_Icon.svg.png" class="Agua">';
+      '<img id="imagen-agua" src="./resources/1024px-Pokémon_Water_Type_Icon.svg.png" class="Agua">';
   } else {
     ataqueEnemigo = "TIERRA";
     spanImagenAtaqueEnemigo =
-      '<img id="imagen-tierra" src="./imagenes/1200px-Pokémon_Ground_Type_Icon.svg.png" class="Tierra"></img>';
+      '<img id="imagen-tierra" src="./resources/1200px-Pokémon_Ground_Type_Icon.svg.png" class="Tierra"></img>';
   }
 
   divResultado.style.display = "flex";
