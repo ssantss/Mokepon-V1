@@ -1,6 +1,11 @@
-body{
-  font-family: 'Roboto', sans-serif;
-  background-image: linear-gradient( 115deg, rgba(2, 34, 94, 0.8), rgba(7, 63, 111, 0.7) ), url(/imagenes/fondopokemon.jpg);
+body {
+  font-family: "Roboto", sans-serif;
+  background-image: linear-gradient(
+      115deg,
+      rgba(2, 34, 94, 0.8),
+      rgba(7, 63, 111, 0.7)
+    ),
+    url(/imagenes/fondopokemon.jpg);
   /*background-color:red;*/
   background-size: cover;
   background-repeat: no-repeat;
@@ -8,32 +13,31 @@ body{
   background-attachment: fixed;
 }
 
-.logo{
+.logo {
   width: 350px;
 }
 
-.cuadro{
+.cuadro {
   display: flex;
   flex-direction: column;
-  background-color: #2E69B3;
+  background-color: #2e69b3;
   opacity: 80%;
   border: 5px solid white;
   padding: 20px;
-  border-radius: 25px;  
+  border-radius: 25px;
   margin-top: 20px;
-  
 }
 
-.elegir-mascota{
-  display:flex;
+.elegir-mascota {
+  display: flex;
   /*flex-direction: row;*/
-	align-content: center;
-  flex-wrap:wrap;
+  align-content: center;
+  flex-wrap: wrap;
   justify-content: center;
 }
 
 .titulo {
-  display:flex;
+  display: flex;
   width: 320px;
   height: 50px;
   margin-top: -22px;
@@ -43,26 +47,23 @@ body{
   font-size: 40px;
 }
 
-
-h2{
-  color:white;
+h2 {
+  color: white;
   text-align: center;
   margin-top: 5px;
   margin-bottom: 15px;
   font-size: 25px;
 }
 
-  
-
-.seccion{
+.seccion {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top:50px;
+  margin-top: 50px;
 }
 
-.tarjeta-de-mokepon{
-  display:flex;
+.tarjeta-de-mokepon {
+  display: flex;
   width: 200px;
   height: 250px;
   padding: 5px;
@@ -73,43 +74,46 @@ h2{
   border-radius: 15px;
   align-items: center;
   justify-content: center;
-  font-size:25px;
+  font-size: 25px;
   color: white;
   flex-direction: column;
-  cursor:pointer;/*Para poner la manito del click*/
+  cursor: pointer; /*Para poner la manito del click*/
 }
 
-.tarjeta-de-mokepon img, #img-pydos, #img-ratigueya, #img-langostelvis, #img-tucapalma, #img-hipodoge, #img-capipepo{
-  
+.tarjeta-de-mokepon img,
+#img-pydos,
+#img-ratigueya,
+#img-langostelvis,
+#img-tucapalma,
+#img-hipodoge,
+#img-capipepo {
   margin-top: 20px;
-  height:160px;
-
+  height: 160px;
 }
 
-.tarjeta-de-mokepon:hover{
+.tarjeta-de-mokepon:hover {
   background-color: white;
-  color:black;
+  color: black;
   border: 2px solid rgb(18, 18, 18);
   border-radius: 30px;
-  
 }
 
-.tarjeta-de-mokepon input{
-  display:none
+.tarjeta-de-mokepon input {
+  display: none;
 }
 /*Esta regla se utiliza para aplicar estilos al elemento padre de un elemento que contenga una regla*/
 .tarjeta-de-mokepon:has(input:checked) {
-  background-color:#FFCC01;
+  background-color: #ffcc01;
   border-radius: 30px;
   font-size: 20px;
-  color:rgb(10, 10, 10);
+  color: rgb(10, 10, 10);
 }
 
 /*También se podría con input:checked + label{
   propiedades que quiero que al aplicar a un imput se le adicionen al label hermano, así podemos dejar el imput con display:none, ¿cómo se quita el puntico que sigue apareciendo? */
 
-.seleccionar{
-  display:flex;
+.seleccionar {
+  display: flex;
   margin: 15px auto 0px;
   background: rgb(236, 240, 236);
   color: rgb(9, 9, 9);
@@ -119,88 +123,80 @@ h2{
   font-size: 20px;
   align-items: center;
   justify-content: center;
-  cursor:pointer;
-  
-
+  cursor: pointer;
 }
 
-.seleccionar:hover{
-  background-color: #FFCC01;
+.seleccionar:hover {
+  background-color: #ffcc01;
 }
 
-#seleccionar-ataque{
+#seleccionar-ataque {
   flex-direction: column;
   align-items: center;
 }
 
-.cuadro2{
-  display:flex;
-  margin:auto;
+.cuadro2 {
+  display: flex;
+  margin: auto;
   flex-direction: column;
   align-items: center;
-  background-color: #2E69B3;
+  background-color: #2e69b3;
   opacity: 80%;
   border: 5px solid white;
   padding: 20px;
-  border-radius: 25px;  
+  border-radius: 25px;
   margin-top: 20px;
   justify-content: center;
-
 }
 
-.cuadro2 img{
+.cuadro2 img {
   height: 60px;
-  margin-bottom:0px;
-  
-
+  margin-bottom: 0px;
 }
 
-.boton-ataque{
-  color:white;
-  width:120px;
-  height:150px;
-  font-size:25px;
+.boton-ataque {
+  color: white;
+  width: 120px;
+  height: 150px;
+  font-size: 25px;
   border: 2px solid white;
   border-radius: 25px;
   background: rgb(4, 4, 4);
-  cursor:pointer;
-  
+  cursor: pointer;
 }
 
-.botones-ataque{
+.botones-ataque {
   margin-top: 20px;
 }
 
-.boton-ataque img{
+.boton-ataque img {
   height: 80px;
-  margin-top:6px;
+  margin-top: 6px;
 }
 
-.boton-ataque:hover{
+.boton-ataque:hover {
   background-color: white;
-  color:black;
+  color: black;
   border: 2px solid rgb(18, 18, 18);
   border-radius: 30px;
-
-
 }
 
-.boton-ataque:active{
-  background-color:#FFCC01;
+.boton-ataque:active {
+  background-color: #ffcc01;
 }
 
-.mascotas-elegidas{
-  display:flex;
-  margin-top:40px;
-  
+.mascotas-elegidas {
+  display: flex;
+  margin-top: 40px;
 }
 
-#seleccionar-ataque, .mascotas-elegidas{
+#seleccionar-ataque,
+.mascotas-elegidas {
   justify-content: space-around;
 }
 
-#boton-revancha{
-  display:flex;
+#boton-revancha {
+  display: flex;
   justify-content: center;
   margin: 15px auto 0px;
   background: rgb(236, 240, 236);
@@ -210,38 +206,36 @@ h2{
   border-radius: 30px;
   font-size: 20px;
   align-items: center;
-  cursor:pointer;
+  cursor: pointer;
   border: 3px solid black;
-
 }
 
-#boton-revancha:hover{
-  background-color: #2E69B3;
-  color:white;
+#boton-revancha:hover {
+  background-color: #2e69b3;
+  color: white;
   border: 2px solid white;
 }
 
-#resultado{
+#resultado {
   display: flex;
   flex-direction: column;
   align-items: center;
   width: 150px;
-  border:1px solid white;
+  border: 1px solid white;
   border-radius: 40px;
   background-color: white;
   color: black;
-  padding:15px;
+  padding: 15px;
   align-items: center;
-  height:100%;
+  height: 100%;
   font-size: 25px;
- 
 }
 
-#mensajeFinal{
-  display:flex;
+#mensajeFinal {
+  display: flex;
   justify-content: center;
   margin: 15px auto 0px;
-  background: #FFCC01;
+  background: #ffcc01;
   color: rgb(0, 0, 0);
   height: 55px;
   width: 400px;
@@ -250,15 +244,14 @@ h2{
   font-size: 20px;
   align-items: center;
   font-weight: bold;
-  
 }
-.vidas{
+.vidas {
   display: flex;
-  color:black;
+  color: black;
   border: 3px solid white;
   border-radius: 100%;
   padding: 20px;
-  background-color: #2E69B3;
+  background-color: #2e69b3;
   opacity: 95%;
   margin: 10px;
   align-items: center;
@@ -266,16 +259,15 @@ h2{
   flex-direction: column;
   padding-top: 5px;
   font-size: 18px;
-  margin-top:70px
-  
+  margin-top: 70px;
 }
 
-#versus{
+#versus {
   display: flex;
-  color:black;
+  color: black;
   border: 3px solid black;
   border-radius: 100%;
-  background-color: #FFCC01;
+  background-color: #ffcc01;
   opacity: 95%;
   align-items: center;
   justify-content: center;
@@ -284,52 +276,52 @@ h2{
   flex-direction: column;
   padding-top: 5px;
   font-size: 30px;
-  margin-top:80px
-
+  margin-top: 80px;
 }
 
-#img-ataque-jugador, #img-ataque-enemigo{
-  margin-top:16px;
-  padding:0px;
+#img-ataque-jugador,
+#img-ataque-enemigo {
+  margin-top: 16px;
+  padding: 0px;
 }
 
-#imagen-fuego, #imagen-agua, #imagen-tierra{
+#imagen-fuego,
+#imagen-agua,
+#imagen-tierra {
   height: 28px;
-  display:flex;
+  display: flex;
   align-items: center;
-  margin-top:2px
+  margin-top: 2px;
 }
 
-#vidas-jugador, #vidas-enemigo{
-  font-size:53px;
-  margin-top:-5px;
+#vidas-jugador,
+#vidas-enemigo {
+  font-size: 53px;
+  margin-top: -5px;
 }
 
-.mostrar-mascota{
-  display:flex;
+.mostrar-mascota {
+  display: flex;
   width: 10px;
   height: 40px;
-  
-  
 }
 
-.cuadro-mascota{
+.cuadro-mascota {
   display: flex;
   border: 1px solid white;
   align-items: center;
   flex-direction: column;
-  color:white;
-  width:180px;
-  height:225px;
-  font-size:25px;
+  color: white;
+  width: 180px;
+  height: 225px;
+  font-size: 25px;
   border: 2px solid white;
   border-radius: 25px;
   background: rgb(4, 4, 4);
   margin: 0 20px;
-  
 }
 
-.cuadro-mascota p{
+.cuadro-mascota p {
   display: flex;
   text-align: center;
   margin-top: 9px;
@@ -337,59 +329,57 @@ h2{
   font-size: 15px;
   justify-content: center;
   width: 180px;
- 
 }
 
-p.mostrar-mascota{
+p.mostrar-mascota {
   text-decoration: underline;
 }
 
-#imagen-jugador, #imagen-enemigo{
-  margin-top: -20px
+#imagen-jugador,
+#imagen-enemigo {
+  margin-top: -20px;
 }
 
-@media (max-width: 415px){
-  .elegir-mascota{
+@media (max-width: 415px) {
+  .elegir-mascota {
     flex-direction: column;
   }
-  .botones-ataque{
+  .botones-ataque {
     display: flex;
     flex-direction: column;
   }
 
-  .cuadro{
-    width:290px;
+  .cuadro {
+    width: 290px;
   }
 
-  .tarjeta-de-mokepon{
+  .tarjeta-de-mokepon {
     width: 270px;
   }
 
-  .mascotas-elegidas{
-    display:flex;
+  .mascotas-elegidas {
+    display: flex;
     flex-direction: column;
   }
 
-  .cuadro2{
-    width:290px;
+  .cuadro2 {
+    width: 290px;
   }
 
-  .botones-ataque{
-    display:flex;
+  .botones-ataque {
+    display: flex;
     flex-direction: row;
-    
   }
 
   .boton-ataque img {
     height: 60px;
   }
-  
-  .boton-ataque{
-    width:100px;
-    height:110px;
+
+  .boton-ataque {
+    width: 100px;
+    height: 110px;
     margin-right: 2px;
     margin-left: 2px;
-    font-size:20px;
-    
+    font-size: 20px;
   }
 }
