@@ -348,7 +348,7 @@ p.mostrar-mascota{
   margin-top: -20px
 }
 
-@media (max-width: 391px){
+@media (max-width: 415px){
   .elegir-mascota{
     flex-direction: column;
   }
@@ -358,6 +358,10 @@ p.mostrar-mascota{
   }
 
   .cuadro{
-    width:210px;
+    width:290px;
+  }
+
+  .tarjeta-de-mokepon{
+    width: 270px;
   }
 }
